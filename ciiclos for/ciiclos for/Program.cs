@@ -23,14 +23,14 @@ namespace ciiclos_for
             {
                 for( int i=x; i>y; i-=z)
                 {
-                    Console.WriteLine("i =+ i");
+                    Console.WriteLine(i =+ i);
                 }
             }
             else
             {
                 for (int i=x; i<y; i+=z)
                 {
-                    Console.WriteLine("i =+ i");
+                    Console.WriteLine(i =+ i);
                 }
             }
         }
